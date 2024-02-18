@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Header() {
   return (
     <header className="flex items-center justify-between">
-      <Link className="text-red-800 font-semibold text-2xl" href="">Pizza</Link>
+      <Link className="text-red-800 font-semibold text-2xl" href="">Noodles-Shop</Link>
       <nav className="flex items-center gap-4 text-gray-500 font-semibold">
         <Link href={''}>Home</Link>
         <Link href={''}>Menu</Link>
